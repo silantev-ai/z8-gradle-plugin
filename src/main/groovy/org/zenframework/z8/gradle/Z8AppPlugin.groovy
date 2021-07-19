@@ -33,6 +33,12 @@ class Z8AppPlugin implements Plugin<Project> {
 							project.objects.named(LibraryElements, 'bl'))
 				}
 			}
+//			confresources {
+//				canBeResolved = true
+//				canBeConsumed = false
+//				attributes.attribute(LibraryElements.LIBRARY_ELEMENTS_ATTRIBUTE,
+//						project.objects.named(LibraryElements, 'conf'))
+//			}
 		}
 
 		project.dependencies {
